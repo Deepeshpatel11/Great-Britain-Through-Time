@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* generic project styles */
+    color: aliceblue;
+}
+
 /* Header */
 header {
     background-color: blue;
@@ -13,6 +21,8 @@ header {
 /* main */
 main {
     background-color: bisque;
+    /* Main element to take up surplus space and push footer down */
+    flex: 1 0 auto;
 }
 
 /* footer */
