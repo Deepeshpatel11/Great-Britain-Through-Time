@@ -13,13 +13,16 @@ body {
     display: flex;
     flex-direction: column;
     /* generic project styles */
-    color: aliceblue;
+    color: black;
     font-family: 'montserrat', sans-serif;
 }
 
 /* Header */
 header {
-    background-color: blue;
+    background-color: gray;
+}
+h1 {
+    font-family: 'Playfair Display', sans-serif;
 }
 
 /* main */
