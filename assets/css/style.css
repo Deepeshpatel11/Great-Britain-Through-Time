@@ -1,3 +1,6 @@
+/* Google Font imported - Playfair Display for headings and Montserrat for body*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 /* Wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -11,6 +14,7 @@ body {
     flex-direction: column;
     /* generic project styles */
     color: aliceblue;
+    font-family: 'montserrat', sans-serif;
 }
 
 /* Header */
