@@ -93,3 +93,34 @@ main {
 footer {
     background-color: brown;
 }
+
+/* Media Queery for lanscaped phones */
+
+
+/* Media Queery for tablets */
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+}
+
+/* Media Queery for laptops/desktops */
+
+
+/* Media Queery for 1200px or above width */
