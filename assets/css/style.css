@@ -21,7 +21,7 @@ body {
 header {
     /* Background color is a placeholder to be changed once content is added */
     background-color: white;
-    padding: 0 1 rem;
+    padding: 0 1rem;
     position: fixed;
     z-index: 10;
     width: 100%;
@@ -39,11 +39,25 @@ h1 {
     color: #252525;
 }
 
+nav {
+    margin-top: 1px;
+}
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
 }
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-top: 1px solid #252525d5;
+    border-bottom: 1px solid #252525d5;
+}
+
 /* main */
 main {
     background-color: bisque;
