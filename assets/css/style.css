@@ -131,6 +131,11 @@ footer {
 }
 
 /* Media Queery for laptops/desktops */
-
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-top: 1px solid #252525d5;
+        border-bottom: 1px solid #252525d5;
+    }
+}
 
 /* Media Queery for 1200px or above width */
