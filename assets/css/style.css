@@ -95,7 +95,11 @@ footer {
 }
 
 /* Media Queery for lanscaped phones */
-
+@media screen and (min-width: 576px) {
+    main {
+        margin-top: 53px;
+    }
+}
 
 /* Media Queery for tablets */
 @media screen and (min-width: 768px) {
@@ -138,4 +142,9 @@ footer {
     }
 }
 
-/* Media Queery for 1200px or above width */
+/* Media Queery for 1072px or above width */
+@media screen and (min-width: 1072px) {
+    main {
+        margin-top: 87.5px;
+    }
+}
