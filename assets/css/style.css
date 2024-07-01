@@ -1,4 +1,4 @@
-/* Google Font imported - Playfair Display for headings and Montserrat for body*/
+/* Google Font imported - Playfair Display for headings and Montserrat for body */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 /* Wildcard selector to override default styles added by the browser */
@@ -12,15 +12,14 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* generic project styles */
+    /* Generic project styles */
     color: black;
-    font-family: 'montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Header */
 header {
-    /* Background color is a placeholder to be changed once content is added */
-    background-color: white;
+    background-color: black; /* Placeholder to be changed once content is added */
     padding: 0 1rem;
     position: fixed;
     z-index: 10;
@@ -30,6 +29,7 @@ header {
     justify-content: space-between;
     align-items: baseline;
 }
+
 header a {
     text-decoration: none;
     color: inherit;
@@ -42,7 +42,6 @@ h1 {
     color: #252525;
 }
 
-
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -50,13 +49,14 @@ h1 {
 }
 
 #menu > li {
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 .active {
     border-top: 1px solid #252525d5;
     border-bottom: 1px solid #252525d5;
 }
+
 /* Navbar dropdown toggle */
 nav {
     position: absolute;
@@ -70,17 +70,19 @@ nav {
 }
 
 /* Nav toggle */
-#nav-toggle:checked~nav {
+#nav-toggle:checked ~ nav {
     display: block;
 }
+
 #nav-toggle {
     display: none;
 }
+
 .nav-toggle-label {
     font-size: 2rem;
 }
 
-/* main */
+/* Main content */
 main {
     background-color: bisque;
     /* Main element to take up surplus space and push footer down */
@@ -88,20 +90,19 @@ main {
     margin-top: 96px;
 }
 
-/* footer */
-
+/* Footer */
 footer {
     background-color: brown;
 }
 
-/* Media Queery for lanscaped phones */
+/* Media Query for landscape phones */
 @media screen and (min-width: 576px) {
     main {
         margin-top: 53px;
     }
 }
 
-/* Media Queery for tablets */
+/* Media Query for tablets */
 @media screen and (min-width: 768px) {
     nav {
         display: block;
@@ -117,6 +118,7 @@ footer {
 
     #menu > li {
         padding-left: 1rem;
+        margin-bottom: 0;
     }
 
     .nav-toggle-label {
@@ -124,7 +126,7 @@ footer {
     }
 
     #logo {
-        font-size: 280%;
+        font-size: 2.8rem;
         line-height: 75px;
         margin: 0 0.5rem;
     }
@@ -134,7 +136,7 @@ footer {
     }
 }
 
-/* Media Queery for laptops/desktops */
+/* Media Query for laptops/desktops */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-top: 1px solid #252525d5;
@@ -142,7 +144,7 @@ footer {
     }
 }
 
-/* Media Queery for 1072px or above width */
+/* Media Query for 1072px or above width */
 @media screen and (min-width: 1072px) {
     main {
         margin-top: 87.5px;
