@@ -13,13 +13,13 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: black;
+    color: #001F3F;
     font-family: 'Montserrat', sans-serif;
 }
 
 /* Header */
 header {
-    background-color: black; /* Placeholder to be changed once content is added */
+    background-color: #001F3F;
     padding: 0 1rem;
     position: fixed;
     z-index: 10;
@@ -27,7 +27,7 @@ header {
     box-shadow: 0 10px 3px #3a3a3a;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center; /* Center align items vertically */
 }
 
 header a {
@@ -35,32 +35,47 @@ header a {
     color: inherit;
 }
 
+#header-logo img {
+    max-width: 100%;
+    height: auto;
+    width: 80px;
+    margin-right: 2rem;
+}
+
+#header-logo {
+    display: flex;
+    align-items: center;
+}
+
 h1 {
     font-family: 'Playfair Display', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
+    letter-spacing: 3px;
+    color: #ffffff;
+    margin-left: 1rem; /* Adjust spacing between logo and title */
 }
 
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     list-style-type: none;
+    display: flex;
+    color: #ffffff;
 }
 
 #menu > li {
-    margin-bottom: 1rem;
+    margin-left: 1rem;
 }
 
 .active {
-    border-top: 1px solid #252525d5;
-    border-bottom: 1px solid #252525d5;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
 }
 
 /* Navbar dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #001F3F;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -80,6 +95,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    color: #ffffff;
 }
 
 /* Main content */
@@ -87,7 +103,7 @@ main {
     background-color: bisque;
     /* Main element to take up surplus space and push footer down */
     flex: 1 0 auto;
-    margin-top: 96px;
+    margin-top: 90px;
 }
 
 /* Footer */
@@ -132,21 +148,21 @@ footer {
     }
 
     main {
-        margin-top: 160px;
+        margin-top: 90px;
     }
 }
 
 /* Media Query for laptops/desktops */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-top: 1px solid #252525d5;
-        border-bottom: 1px solid #252525d5;
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #ffffff;
     }
 }
 
 /* Media Query for 1072px or above width */
 @media screen and (min-width: 1072px) {
     main {
-        margin-top: 87.5px;
+        margin-top: 90px;
     }
 }
