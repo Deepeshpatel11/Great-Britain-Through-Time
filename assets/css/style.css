@@ -108,7 +108,10 @@ main {
 
 /* Footer */
 footer {
-    background-color: brown;
+    background-color: #001F3F;
+    color: #ffffff;
+    text-align: right;
+    padding: 2rem;
 }
 
 /* Media Query for landscape phones */
