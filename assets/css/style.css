@@ -105,6 +105,14 @@ main {
     flex: 1 0 auto;
     margin-top: 90px;
 }
+/* Background map image */
+#main-bg {
+    background-image: url("../images/main-bg/Back\ ground\ hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Revisit once content added */
+    filter: blur(1px);
+}
 
 /* Footer */
 footer {
