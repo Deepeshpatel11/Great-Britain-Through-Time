@@ -105,6 +105,18 @@ main {
     flex: 1 0 auto;
     margin-top: 90px;
 }
+
+/* timeline */
+.timeline {
+    margin: 0 auto;
+    /* This will need changing post content inputted */
+    max-width: 750px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    font-family: inherit;
+}
+
 /* Background map image */
 #main-bg {
     background-image: url("../images/main-bg/Back\ ground\ hero.png");
