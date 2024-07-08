@@ -121,7 +121,7 @@ main h1 {
     padding: 10px 50px;
     position: relative;
     width: 50%;
-    background-color: rgba(0, 0, 0, 0.3);
+    /* background-color: rgba(0, 0, 0, 0.3); */
     border-radius: 6px;
 }
 
@@ -139,7 +139,19 @@ main h1 {
     left: 50%;
 }
 
-/* Background map image */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background-color: #001F3F;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+}
+
+Background map image */
 #main-bg {
     background-image: url("../images/main-bg/Back\ ground\ hero.png");
     background-repeat: no-repeat;
