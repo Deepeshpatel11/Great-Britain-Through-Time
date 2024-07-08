@@ -108,13 +108,24 @@ main {
 
 /* timeline */
 .timeline {
-    margin: 0 auto;
-    /* This will need changing post content inputted */
-    max-width: 750px;
-    padding: 25px;
-    display: grid;
-    grid-template-columns: 1fr 3px 1fr;
-    font-family: inherit;
+    position: relative;
+    max-width: 1200px;
+    margin: 10px auto;
+    color: #ffffff;
+}
+.container {
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.text-box {
+    padding: 20px 30px;
+    background-color: #001F3F;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
 }
 
 /* Background map image */
@@ -123,7 +134,6 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     /* Revisit once content added */
-    filter: blur(1px);
 }
 
 /* Footer */
