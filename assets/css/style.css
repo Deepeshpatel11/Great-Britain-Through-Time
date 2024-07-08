@@ -279,6 +279,42 @@ footer {
     color: #ffffff;
 }
 
+/* media Query for phones */
+
+@media screen and (max-width: 430px) {
+    .timeline {
+        margin: 50px auto;
+    }
+    .timeline::after {
+        left: 31px;
+    }
+    .container {
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 25px;
+    }
+    .container img {
+        width: 80px;
+        border-radius: 50%;
+        left: 10px;
+    }
+    .text-box {
+        font-size: 13px;
+    }
+    .text-box small {
+        margin-bottom: 10px;
+    }
+    .right-container {
+        left: 0;
+    }
+
+    .left-container img, .right-container img {
+        left: 10px;
+    }
+}
+    
+}
+
 /* Media Query for landscape phones */
 @media screen and (min-width: 576px) {
     main {
