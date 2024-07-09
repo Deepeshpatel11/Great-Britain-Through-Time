@@ -170,6 +170,60 @@ footer {
     color: #ffffff;
 }
 
+/* Icon indepth web-bio pages */
+.icon-details {
+    background-color: bisque;
+    padding: 2rem;
+    margin-top: 10px; 
+}
+
+.icon-header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.icon-header img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.icon-header h1 {
+    font-family: 'Playfair Display', sans-serif;
+    color: #001F3F;
+    font-size: 2.5rem;
+}
+
+.icon-header small {
+    display: block;
+    font-size: 1.2rem;
+    color: #001F3F;
+}
+
+.icon-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.icon-content h2 {
+    font-family: 'Playfair Display', sans-serif;
+    color: #001F3F;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.icon-content p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #001F3F;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+
+
 /* Media Query for landscape phones */
 @media screen and (min-width: 576px) {
     main {
