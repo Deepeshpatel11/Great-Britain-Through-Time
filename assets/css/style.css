@@ -304,6 +304,9 @@ footer {
     main {
         margin-top: 90px;
     }
+    .feedback-form {
+        width: 80%;
+    }
 }
 
 /* Media Query for tablets */
@@ -492,6 +495,11 @@ footer {
         border-right: 15px solid #001F3F;
         left: -15px;
     }
+
+    /* Feedback page */
+    .feedback-form {
+        width: 80%;
+    }
 }
 
 /* Media Query for laptops/desktops */
@@ -500,11 +508,19 @@ footer {
         border-top: 1px solid #ffffff;
         border-bottom: 1px solid #ffffff;
     }
+     /* Feedback page */
+     .feedback-form {
+        width: 70%;
+    }
 }
 
 /* Media Query for 1072px or above width */
 @media screen and (min-width: 1072px) {
     main {
         margin-top: 90px;
+    }
+     /* Feedback page */
+     .feedback-form {
+        width: 60%;
     }
 }
