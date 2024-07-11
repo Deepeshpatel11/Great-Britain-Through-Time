@@ -275,6 +275,10 @@ footer {
     border-radius: 4px;
 }
 
+.form-group textarea {
+    resize: vertical;
+}
+
 /* Media Query for landscape phones */
 @media screen and (min-width: 576px) {
     main {
