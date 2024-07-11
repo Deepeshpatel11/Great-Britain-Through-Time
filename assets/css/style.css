@@ -245,6 +245,36 @@ footer {
     margin-bottom: 2rem;
 }
 
+.feedback-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #001F3F;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    border: 1px solid #001F3F;
+    border-radius: 4px;
+}
+
 /* Media Query for landscape phones */
 @media screen and (min-width: 576px) {
     main {
