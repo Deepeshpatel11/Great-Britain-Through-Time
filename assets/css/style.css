@@ -115,6 +115,7 @@ main h1 {
 }
 
 /* Icon showcase*/
+
 .container {
     width: 100%;
     padding-left: 30px;
@@ -146,7 +147,6 @@ main h1 {
     left: 0;
 }
 
-
 /* Footer */
 footer {
     background-color: #001F3F;
@@ -174,7 +174,7 @@ footer {
 .icon-details {
     background-color: bisque;
     padding: 2rem;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
 .icon-header {
@@ -295,15 +295,13 @@ footer {
     cursor: pointer;
 }
 
-.form-group button:hover {
-    background-color: #003366;
-}
 
 /* Media Query for landscape phones */
 @media screen and (min-width: 576px) {
     main {
         margin-top: 90px;
     }
+
     .feedback-form {
         width: 80%;
     }
@@ -433,6 +431,7 @@ footer {
         border-radius: 50%;
         right: -350px;
         top: 25px;
+        margin-bottom: 25px;
         z-index: 10;
     }
 
@@ -500,6 +499,10 @@ footer {
     .feedback-form {
         width: 80%;
     }
+
+    .form-group button:hover {
+        background-color: #003366;
+    }
 }
 
 /* Media Query for laptops/desktops */
@@ -508,8 +511,9 @@ footer {
         border-top: 1px solid #ffffff;
         border-bottom: 1px solid #ffffff;
     }
-     /* Feedback page */
-     .feedback-form {
+
+    /* Feedback page */
+    .feedback-form {
         width: 70%;
     }
 }
@@ -519,8 +523,9 @@ footer {
     main {
         margin-top: 90px;
     }
-     /* Feedback page */
-     .feedback-form {
+
+    /* Feedback page */
+    .feedback-form {
         width: 60%;
     }
 }
