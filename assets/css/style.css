@@ -318,6 +318,7 @@ footer {
 .about-section {
     text-align: center;
     margin-bottom: 2rem;
+    padding: 15px;
 }
 
 .about-section p {
@@ -381,6 +382,7 @@ footer {
 .mission-section {
     text-align: center;
     margin-bottom: 2rem;
+    padding: 15px;
 }
 
 .mission-section h2 {
