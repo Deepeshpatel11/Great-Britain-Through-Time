@@ -411,6 +411,7 @@ footer {
 
     .text-box {
         padding: 20px 30px;
+        margin-bottom: 100px;
         background-color: #001F3F;
         position: relative;
         border-radius: 6px;
@@ -430,7 +431,7 @@ footer {
         width: 200px;
         border-radius: 50%;
         right: -350px;
-        top: 25px;
+        top: 5px;
         margin-bottom: 25px;
         z-index: 10;
     }
