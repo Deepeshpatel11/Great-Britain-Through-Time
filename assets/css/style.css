@@ -352,6 +352,23 @@ footer {
     line-height: 1.6;
 }
 
+/* Mission Section */
+.mission-section {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.mission-section h2 {
+    font-family: 'Playfair Display', sans-serif;
+    color: #001F3F;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.mission-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
 
 /* Media Query for landscape phones */
 @media screen and (min-width: 576px) {
