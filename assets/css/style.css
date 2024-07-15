@@ -615,6 +615,16 @@ footer {
     .feedback-form {
         width: 70%;
     }
+
+    /* About us page */
+    .team-container {
+        justify-content: space-between;
+    }
+
+    .team-member {
+        flex: 1 1 30%;
+        max-width: none;
+    }
 }
 
 /* Media Query for 1072px or above width */
