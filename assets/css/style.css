@@ -301,6 +301,57 @@ footer {
     margin-bottom: 2rem;
 }
 
+/* Team Section */
+.team-section {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.team-section h2 {
+    font-family: 'Playfair Display', sans-serif;
+    color: #001F3F;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background-color: #001F3F;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem;
+    max-width: 300px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    transition: transform 0.3s;
+}
+
+.team-member img:hover {
+    animation: sparkle 1s infinite;
+}
+
+.team-member h3 {
+    font-family: 'Playfair Display', sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.team-member p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
 
 /* Media Query for landscape phones */
 @media screen and (min-width: 576px) {
