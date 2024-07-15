@@ -145,12 +145,12 @@ main h1 {
 
 .video-container {
     position: relative;
-    width: 100%;
+    width: 95%;
     padding-bottom: 56.25%;
     /* 16:9 aspect ratio */
     height: 0;
     overflow: hidden;
-    margin: 20px 0;
+    margin: 0 auto 20px;
     /* Add some space around the video */
     text-align: center;
 }
@@ -620,6 +620,17 @@ footer {
     /* Apply the animation to image links on hover */
     .container a img:hover {
         animation: sparkle 1s infinite;
+    }
+
+    .video-container {
+        padding-bottom: 42.19%;
+        width: 75%; /* Make iframe smaller */
+        margin: 0 auto 20px; /* Center the iframe */
+    }
+
+    .video-container iframe {
+        width: 100%;
+        height: 100%;
     }
 
     /* About Us */
