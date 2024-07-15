@@ -62,7 +62,7 @@ h1 {
     color: #ffffff;
 }
 
-#menu > li {
+#menu>li {
     margin-left: 1rem;
 }
 
@@ -84,7 +84,7 @@ nav {
 }
 
 /* Nav toggle */
-#nav-toggle:checked ~ nav {
+#nav-toggle:checked~nav {
     display: block;
 }
 
@@ -314,7 +314,7 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
         margin-bottom: 0;
     }
@@ -495,6 +495,26 @@ footer {
 
     .form-group button:hover {
         background-color: #003366;
+    }
+
+    /* Define sparkle animation --> Credit for idea to my Mentor and used logic from this youtube video: https://www.youtube.com/watch?v=SgmNxE9lWcY*/
+    @keyframes sparkle {
+
+        0%,
+        100% {
+            filter: brightness(1);
+            transform: rotate(0deg) scale(1);
+        }
+
+        50% {
+            filter: brightness(1.5);
+            transform: rotate(180deg) scale(1.2);
+        }
+    }
+
+    /* Apply the animation to image links on hover */
+    .container a img:hover {
+        animation: sparkle 1s infinite;
     }
 }
 
