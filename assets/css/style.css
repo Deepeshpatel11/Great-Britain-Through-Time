@@ -1,5 +1,5 @@
 /* Google Font imported - Playfair Display for headings and Montserrat for body */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;700;900&display=swap');
 
 /* Wildcard selector to override default styles added by the browser */
 * {
@@ -12,7 +12,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
     color: #001F3F;
     font-family: 'Montserrat', sans-serif;
 }
@@ -28,7 +27,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* Center align items vertically */
 }
 
 header a {
@@ -54,7 +52,6 @@ h1 {
     letter-spacing: 3px;
     color: #ffffff;
     margin-left: 1rem;
-    /* Adjust spacing between logo and title */
 }
 
 #menu {
@@ -65,7 +62,7 @@ h1 {
     color: #ffffff;
 }
 
-#menu>li {
+#menu > li {
     margin-left: 1rem;
 }
 
@@ -87,7 +84,7 @@ nav {
 }
 
 /* Nav toggle */
-#nav-toggle:checked~nav {
+#nav-toggle:checked ~ nav {
     display: block;
 }
 
@@ -103,7 +100,6 @@ nav {
 /* Main content */
 main {
     background-color: bisque;
-    /* Main element to take up surplus space and push footer down */
     flex: 1 0 auto;
     margin-top: 90px;
 }
@@ -114,8 +110,7 @@ main h1 {
     color: #001F3F;
 }
 
-/* Icon showcase*/
-
+/* Icon showcase */
 .container {
     width: 100%;
     padding-left: 30px;
@@ -125,7 +120,6 @@ main h1 {
 .container img {
     width: 80px;
     border-radius: 50%;
-    right: 10px;
     margin-bottom: 5px;
 }
 
@@ -170,7 +164,7 @@ footer {
     color: #ffffff;
 }
 
-/* Icon indepth web-bio pages */
+/* Icon in-depth web-bio pages */
 .icon-details {
     background-color: bisque;
     padding: 2rem;
@@ -193,7 +187,7 @@ footer {
     font-family: 'Playfair Display', sans-serif;
     color: #001F3F;
     font-size: 2.2rem;
-    margin: 0px;
+    margin: 0;
 }
 
 .icon-header small {
@@ -295,7 +289,6 @@ footer {
     cursor: pointer;
 }
 
-
 /* Media Query for landscape phones */
 @media screen and (min-width: 576px) {
     main {
@@ -321,7 +314,7 @@ footer {
         display: flex;
     }
 
-    #menu>li {
+    #menu > li {
         padding-left: 1rem;
         margin-bottom: 0;
     }
@@ -340,7 +333,7 @@ footer {
         margin-top: 90px;
     }
 
-    /* timeline  - credit for the design goes to GreatStack - found on youtube: https://www.youtube.com/watch?v=t5AE66WgQD0&t=397s*/
+    /* Timeline */
     .timeline {
         position: relative;
         max-width: 1200px;
@@ -365,7 +358,7 @@ footer {
 
         100% {
             opacity: 1;
-            transform: translateY(0px);
+            transform: translateY(0);
         }
     }
 
@@ -431,7 +424,6 @@ footer {
         width: 200px;
         border-radius: 50%;
         right: -350px;
-        top: 5px;
         margin-bottom: 25px;
         z-index: 10;
     }
