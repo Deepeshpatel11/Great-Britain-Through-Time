@@ -1,6 +1,6 @@
 # Great Britain: Through Time
 
-screen sizes view
+![Great Britain: Through Time shown on a variety of screen sizes](assets/images/readme-img/am-i-responsive-screenshot.png)
 
 Visit the deployed site: [Great Britain: Through Time](https://deepeshpatel11.github.io/Great-Britain-Through-Time/)
 
@@ -11,3 +11,5 @@ Did you know that these historical figures have left an indelible mark on Britis
 Our platform allows users to delve into the past from the comfort of their homes, bringing history to life with engaging content, timelines, and multimedia elements. Whether you are a student, educator, or history buff, Great Britain: Through Time is your go-to destination for exploring the rich history of the United Kingdom.
 
 Join us in celebrating the legacy of Britain's most influential figures and deepen your understanding of how they have shaped the world we live in today.
+
+## Contents
