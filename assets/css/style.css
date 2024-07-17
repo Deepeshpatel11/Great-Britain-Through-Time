@@ -120,8 +120,7 @@ main h1 {
 .container img {
     width: 80px;
     border-radius: 50%;
-    display: flex;
-    margin: 0 auto 5px;
+    margin: 5px;
 }
 
 .text-box {
@@ -397,6 +396,17 @@ footer {
     font-size: 1.2rem;
     line-height: 1.6;
 }
+
+/* Media Query for phones */
+@media screen and (max-width: 440px){
+    .container img {
+        width: 80px;
+        border-radius: 50%;
+        display: flex;
+        margin: 0 auto 5px;
+    }
+}
+
 
 /* Media Query for landscape phones */
 @media screen and (min-width: 576px) {
