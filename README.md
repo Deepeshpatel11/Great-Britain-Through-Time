@@ -13,3 +13,21 @@ Our platform allows users to delve into the past from the comfort of their homes
 Join us in celebrating the legacy of Britain's most influential figures and deepen your understanding of how they have shaped the world we live in today.
 
 ## Contents
+
+
+## User Experience (UX)
+
+### User Stories
+
+#### First Time Visitor Goals
+
+* I want to explore the lives and achievements of significant historical figures from Britain, so that I can learn more about the country's history and its influential personalities.
+* I want the site to be responsive on any device I am using.
+* I want to be able to navigate the webpage with ease.
+
+#### Returning Visitor Goals
+
+* I want to easily find detailed information and timelines of historical events associated with specific figures, so that I can deepen my understanding of their contributions and historical context.
+
+#### Frequent Visitor Goals
+* I want to have access to sufficient content that will necessitate more than one viewing, so that I can continue to learn and discover new information each time I visit the site.

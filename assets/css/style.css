@@ -142,6 +142,10 @@ main h1 {
 }
 
 /* Embedded Youtube video */
+h3 {
+    text-align: center;
+    padding: 10px;
+}
 
 .video-container {
     position: relative;
