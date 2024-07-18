@@ -456,7 +456,7 @@ footer {
         margin-top: 90px;
     }
 
-    /* Timeline */
+    /* Timeline - Credit for this timeline creation goes to GreatStack - followed this youtube tutorial to implement: https://www.youtube.com/watch?v=t5AE66WgQD0 */
     .timeline {
         position: relative;
         max-width: 1200px;
